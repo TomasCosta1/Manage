@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700&display=swap');
+
+/* GENERAL */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{ 
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* HEADER */
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 75px 100px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav ul a{
+    color: #242E52;
+    text-decoration: none;
+}
+
+header nav ul a:hover{
+    color: #8C8C94;
+}
+
+.getStarted{
+    background-color: #F3603B;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    transition: background-color 400ms ease-in-out;
+}
+
+.getStarted:hover{
+    background-color: #ff9277;
+}
+
+.off{
+    display: none;
+}
+/* MAIN */ 
+
+section{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px 0px 200px 0px;
+}
+
+.graphicsSection article {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 450px;
+}
+
+.graphicsSection h2{
+    color: #232C50;
+    font-size: 3.25rem;
+}
+
+.graphicsSection p{
+    color: #B3B2B7;
+    font-size: 1.063rem;
+    padding-right: 80px;
+}
+.graphics{
+    width: 540px;
+}
+
+.differencesSection{
+    align-items: flex-start;
+}
+
+.differencesSection article{
+    width: 450px;
+}
+
+.differencesText h3{
+    color: #242E52;
+    font-size: 2.25rem;
+    margin-bottom: 36px;
+}
+
+.differencesText p{
+    color: #B3B2B7;
+}
+
+.differencesList div{
+    align-items: center;
+    display: flex;
+}
+
+.differencesList span{
+    background-color: #F3603B;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 25px;
+}
+
+.differencesList h4{
+    color: #242E52;
+    margin-left: 23px;
+}
+
+.differencesList p{
+    color: #B3B2B7;
+    padding-left: 93px;
+    margin: 18px 0px 28px 0px;
+}
+
+.opinionsSection{
+    flex-direction: column;
+    gap: 50px;
+}
+
+.opinionsSection h2{
+    color: #242E53;
+    font-size: 2.45rem;
+    margin-bottom: 60px;
+}
+
+.peopleOpinion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.opinionCard{
+    align-items: center;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 470px;
+}
+
+.opinionCard p{
+    color: #B9B9C1;
+    padding: 10px 100px;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.opinionCard img{
+    position: relative;
+    bottom: 40px;
+    width: 100px;
+}
+
+.bottomBanner{
+    background-color: #F3613C;
+    color: white;
+    padding: 64px 0px;
+    margin-bottom: 0px;
+}
+
+.bottomBanner h2{
+    font-size: 2.5rem;
+    width: 470px;
+}
+
+.startedBottomBanner{
+    background-color: white;
+    color: #F3603B;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    padding: 12px 30px;
+    text-decoration: none;
+    transition: all 400ms ease-in-out;
+}
+
+.startedBottomBanner:hover{
+    color: #ff9277;
+    background-color: #efeff0;
+}
+
+/* FOOTER */
+.footerData{
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.socialIcons a i{
+    font-size: 30px;
+}
+
+.socialIcons a:hover{
+    color: #F3603B; 
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    padding: 5px 0px; 
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #F3613C;
+}
+
+.footerData form input{
+    border-radius: 50px;
+    padding: 17px 48px 17px 10px;
+}
+
+.footerData form label{
+    background-color: #F3603B;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    padding: 17px 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footerData form label:hover{
+    background-color: #ff9277;
+}
+
+.copyright{
+    background-color: #1E1E26;
+    color: #8C8C94;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    padding-right: 240px;
+    font-size: 0.781rem;
+}
+
+@media (max-width: 1000px) {
+    .mobileHide{
+        display: none;
+    }
+    header{
+        padding: 75px 0px 0px 0px;
+    }
+
+    .off{
+        display: inline-block;
+    }
+
+    /* MAIN */
+    .centerText{
+        text-align: center;
+    }
+
+    .graphicsSection article h2{
+        font-size: 2rem;
+    }
+
+    .graphicsSection article p{
+        padding: 0px 30px;
+        font-size: 1rem;
+    }
+
+    .graphics{
+        width: 350px;
+    }
+
+    .graphicsSection article{
+        order: 2;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    section{
+        margin-top: 20px;
+        margin-bottom: 100px;
+        row-gap: 40px;
+    }
+
+    .differencesText h3{
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    .differencesText p{
+        padding: 0px 40px;
+        font-size: 0.85rem;
+    }
+
+    .differencesList div{
+        background-color: rgba(243, 96, 59, 0.15);
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    .differencesList{
+        padding-left: 20px;
+    }
+
+    .differencesList h4{
+        margin-left: 10px;
+    }
+
+    .differencesList p{
+        padding-left: 0px;
+        padding-right: 35px;
+        margin-bottom: 38px;
+        font-size: 0.85rem;
+        line-height: 25px;
+    }
+
+    .opinionsSection h2{
+        font-size: 2rem;
+    }
+
+    .opinionCard{
+        width: 330px;
+    }
+
+    .opinionCard p{
+        padding: 10px;
+        line-height: 25px;
+        font-size: 0.85rem;
+    }
+
+    .bottomBanner h2{
+        padding: 0px 30px;
+        font-size: 2.25rem;
+    }
+
+    .footerData{
+        row-gap: 30px;
+        justify-content: space-around;
+    }
+
+    .footerData form{
+        order: 1;
+    }
+
+    .footerData form input{
+        width: 200px;
+        padding: 13px;
+    }
+
+    .footerData form label{
+        padding: 13px 38px;
+    }
+
+    .footerData ul{
+        order: 2;
+    }
+
+    .icons{
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    .logoFooter{
+        order: 2;
+        width: 170px;
+    }
+
+    footer ul li{
+        font-size: 0.85rem;
+        padding-bottom: 20px;
+    }
+
+    .copyright{
+        order: 4;
+        padding: 30px 0px;
+        justify-content: center;
+    }
+
+    .socialIcons{
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+
+    .socialIcons a i{
+        font-size: 35px;
+    }
+}
