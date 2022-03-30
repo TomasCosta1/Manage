@@ -56,8 +56,8 @@ header nav ul a:hover{
 section{
     align-items: center;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin: 100px 0px 200px 0px;
 }
 
@@ -79,6 +79,7 @@ section{
     font-size: 1.063rem;
     padding-right: 80px;
 }
+
 .graphics{
     width: 540px;
 }
@@ -120,8 +121,8 @@ section{
 
 .differencesList p{
     color: #B3B2B7;
-    padding-left: 93px;
     margin: 18px 0px 28px 0px;
+    padding-left: 93px;
 }
 
 .opinionsSection{
@@ -137,8 +138,8 @@ section{
 
 .peopleOpinion{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .opinionCard{
@@ -152,22 +153,22 @@ section{
 
 .opinionCard p{
     color: #B9B9C1;
+    margin: 25px 0px;
     padding: 10px 100px;
     text-align: center;
-    margin: 25px 0px;
 }
 
 .opinionCard img{
-    position: relative;
     bottom: 40px;
+    position: relative;
     width: 100px;
 }
 
 .bottomBanner{
     background-color: #F3613C;
     color: white;
-    padding: 64px 0px;
     margin-bottom: 0px;
+    padding: 64px 0px;
 }
 
 .bottomBanner h2{
@@ -177,26 +178,26 @@ section{
 
 .startedBottomBanner{
     background-color: white;
-    color: #F3603B;
     border-radius: 50px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #F3603B;
     padding: 12px 30px;
     text-decoration: none;
     transition: all 400ms ease-in-out;
 }
 
 .startedBottomBanner:hover{
-    color: #ff9277;
     background-color: #efeff0;
+    color: #ff9277;
 }
 
 /* FOOTER */
 .footerData{
     background-color: #1E1E26;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 50px;
-    flex-wrap: wrap;
 }
 
 .icons{
@@ -246,9 +247,9 @@ footer a:hover{
     border-radius: 50px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     color: white;
-    padding: 17px 30px;
-    margin-left: 10px;
     cursor: pointer;
+    margin-left: 10px;
+    padding: 17px 30px;
 }
 
 .footerData form label:hover{
@@ -259,10 +260,10 @@ footer a:hover{
     background-color: #1E1E26;
     color: #8C8C94;
     display: flex;
+    font-size: 0.781rem;
     justify-content: flex-end;
     padding-bottom: 30px;
     padding-right: 240px;
-    font-size: 0.781rem;
 }
 
 @media (max-width: 1000px) {
@@ -287,8 +288,8 @@ footer a:hover{
     }
 
     .graphicsSection article p{
-        padding: 0px 30px;
         font-size: 1rem;
+        padding: 0px 30px;
     }
 
     .graphics{
@@ -296,8 +297,8 @@ footer a:hover{
     }
 
     .graphicsSection article{
-        order: 2;
         align-items: center;
+        order: 2;
         row-gap: 40px;
     }
 
@@ -313,8 +314,8 @@ footer a:hover{
     }
 
     .differencesText p{
-        padding: 0px 40px;
         font-size: 0.85rem;
+        padding: 0px 40px;
     }
 
     .differencesList div{
@@ -331,11 +332,11 @@ footer a:hover{
     }
 
     .differencesList p{
-        padding-left: 0px;
-        padding-right: 35px;
-        margin-bottom: 38px;
         font-size: 0.85rem;
         line-height: 25px;
+        margin-bottom: 38px;
+        padding-left: 0px;
+        padding-right: 35px;
     }
 
     .opinionsSection h2{
@@ -347,19 +348,19 @@ footer a:hover{
     }
 
     .opinionCard p{
-        padding: 10px;
-        line-height: 25px;
         font-size: 0.85rem;
+        line-height: 25px;
+        padding: 10px;
     }
 
     .bottomBanner h2{
-        padding: 0px 30px;
         font-size: 2.25rem;
+        padding: 0px 30px;
     }
 
     .footerData{
-        row-gap: 30px;
         justify-content: space-around;
+        row-gap: 30px;
     }
 
     .footerData form{
@@ -367,8 +368,8 @@ footer a:hover{
     }
 
     .footerData form input{
-        width: 200px;
         padding: 13px;
+        width: 200px;
     }
 
     .footerData form label{
@@ -380,10 +381,10 @@ footer a:hover{
     }
 
     .icons{
-        order: 3;
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        order: 3;
         row-gap: 50px;
     }
 
@@ -398,14 +399,14 @@ footer a:hover{
     }
 
     .copyright{
-        order: 4;
-        padding: 30px 0px;
         justify-content: center;
+        padding: 30px 0px;
+        order: 4;
     }
 
     .socialIcons{
-        width: 100vw;
         justify-content: space-evenly;
+        width: 100vw;
     }
 
     .socialIcons a i{
